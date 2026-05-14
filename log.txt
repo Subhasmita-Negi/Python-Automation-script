@@ -1,0 +1,5 @@
+2026-05-14 19:55:41,604 - Folder scanned successfully
+2026-05-14 19:58:41,194 - Deleted folder: Include
+2026-05-14 19:58:41,202 - Deleted folder: info
+2026-05-14 19:58:41,205 - Deleted folder: tags
+2026-05-14 20:26:27,356 - Folder scanned successfully
