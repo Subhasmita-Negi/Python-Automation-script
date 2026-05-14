@@ -27,7 +27,20 @@ A Python automation script that scans folders and organizes files automatically 
   - Documents
   - Music
   - Videos
+    
+### 3. Delete Empty Folders
 
+- Scan all folders inside a directory
+- Detect empty folders
+- Delete empty folders automatically
+- Handle exceptions
+
+### 4. Automatic Log Generation
+
+- Generate `log.txt` automatically
+- Store file operations
+- Store error messages
+- Track automation activities
 ---
 
 ## Technologies Used
@@ -35,7 +48,7 @@ A Python automation script that scans folders and organizes files automatically 
 - Python
 - OS Module
 - Shutil Module
-
+- Logging Module
 ---
 
 ## Project Structure
@@ -44,6 +57,7 @@ A Python automation script that scans folders and organizes files automatically 
 Python-Automation-Script/
 │
 ├── main.py
+├── log.txt
 └── README.md
 ```
 
@@ -62,6 +76,8 @@ python main.py
 ```bash
 1. Scan Folder
 2. Organize Files
+3. Delete Empty Folders
+4. Exit
 ```
 
 ---
@@ -87,3 +103,10 @@ Moved: photo.jpg -> Images
 Moved: notes.pdf -> Documents
 Moved: song.mp3 -> Music
 ```
+### Delete Empty Folders
+Deleted: D:/Downloads/TestFolder
+
+### Log File Example
+2026-05-14 10:20:11 - Folder scanned successfully
+2026-05-14 10:22:05 - Moved file: photo.jpg
+2026-05-14 10:25:40 - Deleted folder: TestFolder
